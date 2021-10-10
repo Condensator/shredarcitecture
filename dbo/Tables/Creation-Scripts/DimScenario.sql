@@ -1,1 +1,0 @@
-CREATE TABLE [dbo].[DimScenario](	  [ScenarioKey] INT NOT NULL IDENTITY(1         ,1)	, [ScenarioName] NVARCHAR(50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL	, CONSTRAINT [PK_DimScenario] PRIMARY KEY ([ScenarioKey] ASC))GO
